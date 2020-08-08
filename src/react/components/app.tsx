@@ -18,7 +18,7 @@ const App = () => {
                 <MenuAppBar/>
                 </nav>
                 <Switch>
-                    <Route path="/history" component={TradeHistory}/>
+                    <Route path="/trades" component={TradeHistory}/>
                 </Switch>
             </BrowserRouter>
         </div>
