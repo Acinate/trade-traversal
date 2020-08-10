@@ -1,14 +1,12 @@
-import React from 'react';
-import MaterialTable from './materialTable';
-import Container from '@material-ui/core/Container';
-import TableControls from './tableControls';
+import React from "react";
+import TradesTable from "./tradesTable";
+import Container from "@material-ui/core/Container";
 
 export default function TradeHistory() {
-    return(
-        <Container>
-        <h1>Trade History</h1>
-        <TableControls/>
-        <MaterialTable/>
-        </Container>
-    );
+  return (
+    <Container>
+      <h1>Trade History</h1>
+      <TradesTable/>
+    </Container>
+  );
 }

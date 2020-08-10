@@ -80,7 +80,7 @@ export default function TemporaryDrawer() {
           <ListItemIcon>
             <AccountBalanceIcon/>
           </ListItemIcon>
-          <ListItemText primary={"Trades"}/>
+          <ListItemText primary={"TradesTable"}/>
         </ListItem>
         <ListItem button key={"performance"} onClick={(e) => navigateTo(e, "/performance")}>
           <ListItemIcon>
